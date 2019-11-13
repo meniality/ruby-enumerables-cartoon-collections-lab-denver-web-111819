@@ -9,6 +9,8 @@ def summon_captain_planet(array_of_calls)
   array_of_calls.map {|n| n.capitalize}
   array_of_calls.each do |n| 
     puts n + "!"
+  end
+  return array_of_calls
 end
 
 def long_planeteer_calls# code an argument here
